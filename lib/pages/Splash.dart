@@ -61,8 +61,7 @@ class Splash extends StatelessWidget {
                           vertical: 24, // Inner top and bottom padding
                         ),
                         shape: RoundedRectangleBorder(
-                          borderRadius:
-                              BorderRadius.circular(10), // Border radius of 20
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                       child: const Text('Continue'),

@@ -106,7 +106,7 @@ class _AnyToAnyState extends State<AnyToAny> {
               onPressed: () {
                 setState(() {
                   answer =
-                      '${amountController.text} $dropdownValue1 ${convertany(widget.rates, amountController.text, dropdownValue1, dropdownValue2)} $dropdownValue2';
+                      '${amountController.text}$dropdownValue1 ${convertany(widget.rates, amountController.text, dropdownValue1, dropdownValue2)} $dropdownValue2';
                 });
               },
               style: ButtonStyle(
